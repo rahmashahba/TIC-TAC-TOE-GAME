@@ -311,26 +311,3 @@ void printWinner_MultiplayerMode(char winner)
 
 
 
-// void player_turn(char player) {
-    // int move;
-    // char mark;
-
-    // if (player == player1)
-        // mark = 'X';
-    // else
-        // mark = 'O';
-
-    // printf("Player %c, enter your move (1-9): ", mark);
-    // scanf("%d", &move);
-
-// int row = (move - 1) / 3;
-    // int col = (move - 1) % 3;
-
-    // if (board[row][col] != '1' + row * 3 + col && board[row][col] != '4' + row * 3 + col && board[row][col] != '7' + row * 3 + col) 
-	// {
-        // printf("Invalid move. Try again.\n");
-        // player_turn(player);
-    // } else {
-        // board[row][col] = mark;
-    // }
-// }
